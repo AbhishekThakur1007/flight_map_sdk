@@ -5,7 +5,7 @@
 part of mapbox_gl;
 
 enum AnnotationType { fill, line, circle, symbol }
-
+//Test
 typedef void MapCreatedCallback(MapboxMapController controller);
 
 class MapboxMap extends StatefulWidget {
