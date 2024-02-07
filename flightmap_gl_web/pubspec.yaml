@@ -16,7 +16,7 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   meta: ^1.1.7
-  flightmap_gl_platform_interface: ^0.7.0
+#  flightmap_gl_platform_interface: ^0.7.0
   mapbox_gl_dart: ^0.2.1
   image: '>=3.0.0 <5.0.0'
 
