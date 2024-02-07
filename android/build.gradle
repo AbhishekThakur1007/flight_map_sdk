@@ -13,23 +13,9 @@ buildscript {
 }
 
 rootProject.allprojects {
-    def token = System.getenv('SDK_REGISTRY_TOKEN') ?: 'sk.eyJ1IjoiZ29uaWNrIiwiYSI6ImNsczh1OGR6eTAwNDYya3JxcWo0YXRyZzAifQ.YLgaJOk8txFoDRhbNDfMrg'
-    if (token == null || token.empty) {
-        throw new Exception("SDK Registry token is null. See README.md for more information.")
-    }
     repositories {
         google()
         mavenCentral()
-        maven {
-            url 'https://api.mapbox.com/downloads/v2/releases/maven'
-            authentication {
-                basic(BasicAuthentication)
-            }
-            credentials {
-                username = "mapbox"
-                password = token
-            }
-        }
     }
 }
 
