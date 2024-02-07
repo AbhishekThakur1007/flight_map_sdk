@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:mapbox_gl/mapbox_gl.dart';
+import 'package:flightmap_gl/mapbox_gl.dart';
 import 'package:path_provider/path_provider.dart';
 
 import 'main.dart';
