@@ -13,14 +13,14 @@ class MapboxStyles {
 
   /// Light: Subtle light backdrop for data visualizations. Using this constant means your map
   /// style will always use the latest version and may change as we improve the style.
-  static const String LIGHT = "mapbox://styles/mapbox/light-v10";
+  static const String LIGHT = "https://maps.flightmap.io/styles//style-bright.json";
 
   /// Empty: Basic empty style
   static const String EMPTY = "mapbox://styles/mapbox/empty-v8";
 
   /// Dark: Subtle dark backdrop for data visualizations. Using this constant means your map style
   /// will always use the latest version and may change as we improve the style.
-  static const String DARK = "mapbox://styles/mapbox/dark-v10";
+  static const String DARK = "https://maps.flightmap.io/styles//style-dark.json";
 
   /// Satellite: A beautiful global satellite and aerial imagery layer. Using this constant means
   /// your map style will always use the latest version and may change as we improve the style.
