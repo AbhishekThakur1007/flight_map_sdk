@@ -1,4 +1,4 @@
-library mapbox_gl_platform_interface;
+library flightmap_gl_platform_interface;
 
 import 'dart:async';
 import 'dart:convert';
@@ -22,5 +22,5 @@ part 'src/symbol.dart';
 part 'src/fill.dart';
 part 'src/ui.dart';
 part 'src/snapshot.dart';
-part 'src/mapbox_gl_platform_interface.dart';
+part 'src/flightmap_gl_platform_interface.dart';
 part 'src/source_properties.dart';

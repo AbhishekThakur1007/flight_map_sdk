@@ -1,7 +1,7 @@
-name: mapbox_gl_web
+name: flightmap_gl_web
 description: Web platform implementation of mapbox_gl
-version: 0.16.0
-homepage: https://github.com/tobrun/flutter-mapbox-gl
+version: 0.8.0
+homepage: https://github.com/Jungle-Works/flutter-flightmap-sdk
 
 flutter:
   plugin:
@@ -16,16 +16,13 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   meta: ^1.1.7
-  mapbox_gl_platform_interface:
-    git:
-      url: https://github.com/tobrun/flutter-mapbox-gl.git
-      path: mapbox_gl_platform_interface
+  flightmap_gl_platform_interface: ^0.7.0
   mapbox_gl_dart: ^0.2.1
   image: '>=3.0.0 <5.0.0'
 
 dependency_overrides:
-  mapbox_gl_platform_interface:
-    path: ../mapbox_gl_platform_interface
+  flightmap_gl_platform_interface:
+    path: ../flightmap_gl_platform_interface
 
 dev_dependencies:
   flutter_test:

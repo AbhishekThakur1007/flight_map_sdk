@@ -1,4 +1,4 @@
-part of mapbox_gl_web;
+part of flightmap_gl_web;
 
 class Convert {
   static void interpretMapboxMapOptions(

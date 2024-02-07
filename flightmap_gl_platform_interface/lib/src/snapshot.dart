@@ -1,4 +1,4 @@
-part of mapbox_gl_platform_interface;
+part of flightmap_gl_platform_interface;
 
 /// Set of options for taking map snapshot
 class SnapshotOptions {

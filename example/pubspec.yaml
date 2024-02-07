@@ -20,10 +20,10 @@ dependencies:
   device_info_plus: ^3.2.2
 
 dependency_overrides:
-  mapbox_gl_platform_interface:
-    path: ../mapbox_gl_platform_interface
-  mapbox_gl_web:
-    path: ../mapbox_gl_web
+  flightmap_gl_platform_interface:
+    path: ../flightmap_gl_platform_interface
+  flightmap_gl_web:
+    path: ../flightmap_gl_web
 
 dev_dependencies:
   flutter_test:
