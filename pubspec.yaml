@@ -6,14 +6,18 @@ homepage: https://github.com/Jungle-Works/flutter-flightmap-sdk
 dependencies:
   flutter:
     sdk: flutter
-#  flightmap_gl_platform_interface: ^0.7.0
-#    git:
-#      url: https://github.com/tobrun/flutter-mapbox-gl.git
-#      path: flightmap_gl_platform_interface
-#  flightmap_gl_web: ^0.7.0
-#    git:
-#      url: https://github.com/tobrun/flutter-mapbox-gl.git
-#      path: flightmap_gl_web
+  flightmap_gl_platform_interface:
+    git:
+      url: https://github.com/AbhishekThakur1007/flight_map_sdk.git
+      ref: changes
+      path: flight_map_sdk/flightmap_gl_platform_interface
+
+  flightmap_gl_web:
+    git:
+      url: https://github.com/AbhishekThakur1007/flight_map_sdk.git
+      ref: changes
+      path: flight_map_sdk/flightmap_gl_web
+
   collection: ^1.15.0
 
 dependency_overrides:
