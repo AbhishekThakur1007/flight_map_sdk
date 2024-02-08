@@ -10,21 +10,21 @@ dependencies:
     git:
       url: https://github.com/AbhishekThakur1007/flight_map_sdk.git
       ref: changes
-      path: flight_map_sdk/flightmap_gl_platform_interface
+      path: ./flightmap_gl_platform_interface
 
   flightmap_gl_web:
     git:
       url: https://github.com/AbhishekThakur1007/flight_map_sdk.git
       ref: changes
-      path: flight_map_sdk/flightmap_gl_web
+      path: ./flightmap_gl_web
 
   collection: ^1.15.0
 
-dependency_overrides:
-  flightmap_gl_platform_interface:
-    path: ./flightmap_gl_platform_interface
-  flightmap_gl_web:
-    path: ./flightmap_gl_web
+#dependency_overrides:
+#  flightmap_gl_platform_interface:
+#    path: ./flightmap_gl_platform_interface
+#  flightmap_gl_web:
+#    path: ./flightmap_gl_web
 
 flutter:
   plugin:
