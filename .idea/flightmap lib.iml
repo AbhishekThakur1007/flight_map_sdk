@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/maps/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/maps/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/maps/build" />
+      <excludeFolder url="file://$MODULE_DIR$/maps/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/maps/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/maps/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/maps/flightmap_gl_platform_interface/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/maps/flightmap_gl_platform_interface/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/maps/flightmap_gl_platform_interface/build" />
+      <excludeFolder url="file://$MODULE_DIR$/maps/flightmap_gl_web/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/maps/flightmap_gl_web/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/maps/flightmap_gl_web/build" />
+      <excludeFolder url="file://$MODULE_DIR$/maps/scripts/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/maps/scripts/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/maps/scripts/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>
