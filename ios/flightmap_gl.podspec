@@ -16,7 +16,7 @@ A new Flutter plugin.
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   s.dependency 'FlightmapAnnotationExtension', '~> 0.0.1-beta.1'
-  s.dependency 'Flightmap-SDK-iOS'
+  s.dependency 'FlighMapDemo', '~> 0.0.2'
   s.swift_version = '4.2'
   s.ios.deployment_target = '9.0'
 end
